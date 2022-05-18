@@ -1,0 +1,20 @@
+Collections e Framwork
+
+Collections é um objeto que agrupa multiplos elementos (Variáveis primitivas ou objetos) dentro de uma unica unidade.
+
+Serve para armazenar e processar conjunto de dados e elementos. 
+
+Manipular conjuntos de forma eficiente. 
+
+Composição das Collections:
+
+Interfaces: É um contrato que quando assumido por uma classe deve ser implementado
+
+Implementações ou classes: Materializações e codificações das interfaces.
+
+Algoritimos: Sequencias logicas para resolver os problemas.
+
+
+Atalhos Intellij:
+http://www.basef.com.br/index.php/Atalhos_do_intellij_idea
+
