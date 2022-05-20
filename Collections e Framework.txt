@@ -16,5 +16,40 @@ Algoritimos: Sequencias logicas para resolver os problemas.
 
 
 Atalhos Intellij:
-http://www.basef.com.br/index.php/Atalhos_do_intellij_idea
+http://www.basef.com.br/index.php/Atalhos_do_IntelliJ_Idea
+
+A interface List fica dentro do pacote Utils
+** java.util.List
+
+
+Método Comparable
+> Utilizado na classe como Interface
+> Esse metodo obriga a sobescrever o método compareTo
+> O método compareTo retorna um int. E o int organiza na ordem.
+
+ex: 
+class gato implements Comparable{
+
+//Método sobrescrito
+@Override
+public int compareTo(Gato gato){
+	return this.getNome().compareToIgnoreCase(gato.getNome());
+	}
+//Se o resultado der 0 é porque os gatos tem nomes iguais
+//Se o resultado der 1 é porque o gato que está comparando tem que ficar após o gato comparado
+//Se o resultado der -1 é porque o gato que está comparando tem que ficar antes do gato comparado. 
+}
+
+Main {
+
+sout("Ordem natural");
+Collections.sort(meusGatos);
+
+}
+
+
+
+
+
+
 
